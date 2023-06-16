@@ -5,20 +5,17 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 def canvas(with_attribution=True):
-    """
-    Placeholder function to show example docstring (NumPy format).
+    """Summary line.
 
-    Replace this function and doc string for your own.
+    Extended description of function.
 
-    Parameters
-    ----------
-    with_attribution : bool, Optional, default: True
-        Set whether or not to display who the quote is from.
+    Args:
+        arg1 (int): Description of arg1
+        arg2 (str): Description of arg2
 
-    Returns
-    -------
-    quote : str
-        Compiled string including quote and optional attribution.
+    Returns:
+        bool: Description of return value
+
     """
 
     quote = "The code is canvas."

@@ -6,14 +6,38 @@ properties of molecules
 import numpy as np
 
 def calculate_distance(rA, rB):
-    # This function calculates the distance between two points given as numpy arrays.
+    """Summary line.
+
+    Extended description of function.
+
+    Args:
+        arg1 (int): Description of arg1
+        arg2 (str): Description of arg2
+
+    Returns:
+        bool: Description of return value
+
+    """
+
     d=(rA-rB)
     dist=np.linalg.norm(d)
     return dist
 
 def calculate_angle(rA, rB, rC, degrees=False):
-    # Calculate the angle between three points. Answer is given in radians by default, but can be given in degrees
-    # by setting degrees=True
+
+    """Summary line.
+
+    Extended description of function.
+
+    Args:
+        arg1 (int): Description of arg1
+        arg2 (str): Description of arg2
+
+    Returns:
+        bool: Description of return value
+
+    """
+
     AB = rB - rA
     BC = rB - rC
     theta=np.arccos(np.dot(AB, BC)/(np.linalg.norm(AB)*np.linalg.norm(BC)))
